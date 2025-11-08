@@ -22,6 +22,13 @@ with open("example.txt", "a") as file:
 # 4. Read again to see the update
 with open("example.txt", "r") as file:
     print("Updated content:")
-    print(file.read())        
+    print(file.read())   
+    
+import os
+if os.path.exists("example.txt"):
+    os.remove("example.txt")
+    print("File deleted.")
+else:
+    print("File not found.")         
 
  
