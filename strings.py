@@ -29,3 +29,7 @@ print("123".isdigit()) # True (only digits)
 text = "Python"
 print(text[0:3])   # Pyt
 print(text[-1])    # n
+
+
+
+# Merging
