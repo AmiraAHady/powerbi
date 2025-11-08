@@ -1,7 +1,8 @@
 sentance="hello from pytho"
 
 
-name = "Amira"
+FirstName = "Amira"
+lastNAme='ali'
 greeting = "Hello"
 message = greeting + ", " + name + "!"
 print(message)  # Output: Hello, Amira!
