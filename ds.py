@@ -16,6 +16,8 @@ print(len(colors))
 
 def dummyfunction():
     print('hello')
+def hellofun():
+    print('hello from ramy')
 # colors[1] = "yellow" ❌ (Error — tuples can’t be changed)
 
 
