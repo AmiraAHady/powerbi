@@ -16,7 +16,10 @@ with open("example.txt", "r") as file:
     print("File content:")
     print(content)
     
-with open("example.txt", "a") as file:
+with open("example.txt", "a") as file2:
+    file.write("Adding another line.\n")
+    
+with open("example.txt", "a") as file3:
     file.write("Adding another line.\n")
 
 # 4. Read again to see the update

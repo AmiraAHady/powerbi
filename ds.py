@@ -13,6 +13,8 @@ print(len(fruits))        # length
 colors = ("red", "green", "blue")
 print(colors[1])          # 'green'
 print(len(colors))
+def hellofun():
+    print('hello from ramy')
 # colors[1] = "yellow" ❌ (Error — tuples can’t be changed)
 
 

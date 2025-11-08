@@ -2,6 +2,7 @@ sentance="hello from pytho"
 
 
 name = "Amira"
+age=30
 greeting = "Hello"
 message = greeting + ", " + name + "!"
 print(message)  # Output: Hello, Amira!
