@@ -22,6 +22,4 @@ if word:
 new_text = re.sub(r"\d", "X", text)
 print("Replaced digits:", new_text)
 
-# 5. Split text by non-word characters
-parts = re.split(r"\W+", text)
-print("Split words:", parts)
+
