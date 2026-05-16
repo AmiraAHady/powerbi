@@ -1,5 +1,5 @@
 
-
+#amira
 # 🧩 1. List → ordered, changeable, allows duplicates
 fruits = ["apple", "banana", "cherry"]
 fruits.append("orange")   # add
